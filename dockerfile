@@ -1,4 +1,4 @@
-FROM node:10.15.2
+FROM node:11.10.0
 RUN mkdir /rdocker
 WORKDIR /rdocker
 RUN git init
